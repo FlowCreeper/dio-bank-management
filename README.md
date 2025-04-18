@@ -1,10 +1,10 @@
 # bankmanagement
 
-Description. 
+Description
 The package bankmanagement is used to:
 
   - account: Create a Account and modify their transactions
-	- balance: Transactions methods
+  - balance: Transactions methods
   - user: Create a User and modify his accounts
 
 ## Installation

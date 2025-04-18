@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="bankmanagement",
-    version="0.0.2",
+    version="0.0.4",
     author="FlowCreeper",
     author_email="caiocoutinho20120@gmail.com",
     description="A bank management package",
