@@ -1,7 +1,7 @@
-# bankmanagement
+# bank_management_fc
 
-Description
-The package bankmanagement is used to:
+Description. 
+The package bank_management_fc is used to:
 
   - account: Create a Account and modify their transactions
   - balance: Transactions methods
@@ -9,17 +9,17 @@ The package bankmanagement is used to:
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bankmanagement
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bank_management_fc
 
 ```bash
-pip install bankmanagement
+pip install bank_management_fc
 ```
 
 ## Example
 
 ```python
 from datetime import date
-from bankmanagement import NaturalPerson, CheckingAccount
+from bank_management_fc import NaturalPerson, CheckingAccount
 
 user = NaturalPerson("Rua A, 123", "12345678900", "João Silva", date(1990, 1, 1))
 acc = CheckingAccount.new_account(1, user) 

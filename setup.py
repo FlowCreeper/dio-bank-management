@@ -7,8 +7,8 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="bankmanagement",
-    version="0.0.4",
+    name="bank_management_fc",
+    version="0.0.1",
     author="FlowCreeper",
     author_email="caiocoutinho20120@gmail.com",
     description="A bank management package",
